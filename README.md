@@ -6,6 +6,9 @@ Developer Sandbox team to develop, maintain and improve their projects.
 ## Required packages
 
 - `stow` if you want to "autoinstall" the contents.
+- [Podman](https://podman.io/) to run the Markdown linter, which runs
+  [markdownlint](https://github.com/markdownlint/markdownlint) inside a
+  container.
 
 ## How to install the common directives
 
@@ -47,3 +50,7 @@ directories and are tracked normally.
 | `promote-to-adr` | Converts an implemented proposal from `docs/proposals/` into a numbered ADR under `docs/adr/` |
 | `research` | Performs comprehensive internet research with source citations and synthesis |
 | `verify-design-document` | Reviews a design document for internal consistency, codebase alignment, and gaps |
+
+## Linting
+
+Markdown files can be linted with `make lint`.
