@@ -1,0 +1,6 @@
+# Configuration file for the markdownlint Ruby gem (mdl). Rule customizations
+# are defined separately in .mdl-style.rb.
+
+# Skip YAML front matter (delimited by ---) so that metadata blocks at the top
+# of Markdown files are not flagged as lint violations.
+ignore_front_matter true
